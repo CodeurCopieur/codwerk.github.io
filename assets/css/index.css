@@ -199,6 +199,7 @@ header {
         header .nav .nav__icon .hamburger .line {
           width: 100%;
           height: 3px;
+          border-radius: 10px;
           background-color: #D9B166;
           position: absolute;
           display: block;
