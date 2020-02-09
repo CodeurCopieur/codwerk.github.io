@@ -635,7 +635,8 @@ main .skills {
     main .skills .skills__lire .skills__lire-cv {
       display: inline-block;
       border: 1px solid #D9B166;
-      color: #D9B166;
+      color: #fff;
+      background-color: #D9B166;
       border-radius: 4em 8em;
       text-transform: uppercase;
       font-size: 14px;
@@ -647,8 +648,8 @@ main .skills {
       -o-transition: all 480ms;
       transition: all 480ms; }
       main .skills .skills__lire .skills__lire-cv:hover {
-        background-color: #D9B166;
-        color: #fff; }
+        background-color: #fff;
+        color: #D9B166; }
 
 @media only screen and (max-width: 767px) {
   main .skills {
@@ -793,6 +794,7 @@ main .skills {
           width: 100px;
           height: 20px;
           border: 1px solid #D9B166;
+          background-color: #D9B166;
           position: absolute;
           border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
           -webkit-animation: movedownbounce 10.9s linear infinite;
@@ -800,6 +802,8 @@ main .skills {
           -webkit-transition: all 480ms;
           -o-transition: all 480ms;
           transition: all 480ms; }
+        .container__projets .projets__wrapper .projets__infos .projets__infos-link:hover:before {
+          background-color: #fff; }
       .container__projets .projets__wrapper .projets__infos .projets__icons {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -848,7 +852,8 @@ main .skills {
     color: #D9B166;
     position: relative;
     display: inline-block;
-    outline: none; }
+    outline: none;
+    cursor: pointer; }
     .container__projets .projects__link:before {
       content: '';
       left: 25%;
@@ -859,6 +864,7 @@ main .skills {
       width: 70px;
       height: 20px;
       border: 1px solid #D9B166;
+      background-color: #D9B166;
       position: absolute;
       border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
       -webkit-animation: movedownbounce 9s linear infinite;
@@ -868,13 +874,14 @@ main .skills {
       transition: all 480ms; }
   .container__projets .target-cpn {
     position: absolute;
-    right: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+    left: 40%;
+    right: 40.7%;
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
     bottom: 0.05%;
-    font-size: 272px;
-    opacity: .5;
+    font-size: 16em;
+    opacity: .2;
     color: #D9B166; }
 
 @media only screen and (max-width: 768px) {
@@ -958,7 +965,7 @@ footer {
     margin: 0 auto;
     padding: 10px 0; }
     footer .footer__corporate .footer__corporate-links .footer__corporate-links__logo {
-      margin-bottom: 1.2rem; }
+      margin-bottom: .75em; }
       footer .footer__corporate .footer__corporate-links .footer__corporate-links__logo span {
         margin-left: 10px;
         font-weight: 600;
