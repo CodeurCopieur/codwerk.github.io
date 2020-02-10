@@ -200,6 +200,7 @@ a {
   .box__bar .bar {
     height: 5px;
     background: #d9b166;
+    border-radius: 5px;
     width: 0%; }
 
 /*** header ***/
