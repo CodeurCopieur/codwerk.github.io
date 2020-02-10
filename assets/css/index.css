@@ -191,6 +191,17 @@ a {
   100% {
     border-radius: 70% 40% 40% 70% / 60% 30% 60% 40%; } }
 
+.box__bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2; }
+  .box__bar .bar {
+    height: 5px;
+    background: #d9b166;
+    width: 0%; }
+
 /*** header ***/
 header {
   max-width: 80%;
@@ -363,14 +374,55 @@ main {
       -o-transition: all 480ms;
       transition: all 480ms;
       z-index: -2; }
+    main .landing .landing__container {
+      text-align: center; }
+      main .landing .landing__container .landingL__title {
+        font-size: 40px;
+        font-weight: 400;
+        color: #17191A;
+        margin-bottom: 1em; }
+        main .landing .landing__container .landingL__title i {
+          color: #D9B166;
+          cursor: pointer; }
+      main .landing .landing__container .landingL__link {
+        color: #fff;
+        margin: auto;
+        padding: 20px;
+        font-size: 20px;
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+        -webkit-transition: all 480ms;
+        -o-transition: all 480ms;
+        transition: all 480ms;
+        margin-bottom: 1em;
+        outline: none; }
+        main .landing .landing__container .landingL__link:before {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          bottom: 0;
+          left: 0;
+          border: 1px solid #D9B166;
+          position: absolute;
+          border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+          background-color: #D9B166;
+          z-index: -1;
+          -webkit-transition: all 480ms;
+          -o-transition: all 480ms;
+          transition: all 480ms; }
+        main .landing .landing__container .landingL__link:hover {
+          color: #D9B166; }
+        main .landing .landing__container .landingL__link:hover:before {
+          background-color: #fff; }
     main .landing .landing__wrapper {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-      justify-content: space-between;
-      margin-top: 40px; }
+      justify-content: space-between; }
       main .landing .landing__wrapper .landingL:before {
         content: '';
         left: 0;
@@ -530,6 +582,8 @@ main {
     main .landing:before {
       width: 300px;
       height: 300px; }
+    main .landing .landing__container .landingL__title {
+      margin-top: 1em; }
     main .landing .landing__wrapper {
       -webkit-box-orient: vertical;
       -webkit-box-direction: reverse;
@@ -545,6 +599,7 @@ main {
       main .landing .landing__wrapper .landingL li .landingL__wording {
         line-height: 1.25; }
       main .landing .landing__wrapper .landingR {
+        display: none;
         text-align: center; }
         main .landing .landing__wrapper .landingR img {
           width: 30%;
@@ -826,7 +881,7 @@ main .skills {
         display: inline-block; }
         .container__projets .projets__wrapper .projets__infos .projets__infos-link:before {
           content: '';
-          left: 15%;
+          left: 10%;
           -webkit-transform: translateY(-50%);
           -ms-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -968,7 +1023,7 @@ main .skills {
         font-size: .875em;
         margin: 13px auto; }
         .container__projets .projets__wrapper .projets__infos .projets__infos-link:before {
-          width: 70px;
+          width: 50px;
           height: 10px;
           top: 14px;
           left: 10px; }
@@ -1041,19 +1096,7 @@ footer {
         display: flex; }
         footer .footer__corporate .footer__corporate-links .footer__corporate-links__bottom-container .footer__corporate-links__link-container .footer__corporate-links__List .footer__corporate-links__Item {
           position: relative;
-          padding: 0 .6rem;
-          /*&:not(:last-child):after {
-                  display: block;
-                  content: "";
-                  position: absolute;
-                  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-                  top: 5px;
-                  right: -6px;
-                  width: .8em;
-                  height: .8em;
-                  background-color: #fff;
-                  opacity: .75;
-                }*/ }
+          padding: 0 .6rem; }
           footer .footer__corporate .footer__corporate-links .footer__corporate-links__bottom-container .footer__corporate-links__link-container .footer__corporate-links__List .footer__corporate-links__Item .footer__corporate-links__Link {
             font-weight: 400;
             color: #fff;
