@@ -660,16 +660,18 @@ main .skills {
     border-bottom: 1px solid #D9B166; }
     main .skills .skills_icons li {
       padding: 10px;
-      color: #8F9EA5;
       font-size: 1.75rem;
       -webkit-transition: all 480ms;
       -o-transition: all 480ms;
       transition: all 480ms;
       cursor: pointer; }
-      main .skills .skills_icons li i:hover {
-        -webkit-transform: scale(1.5);
-        -ms-transform: scale(1.5);
-        transform: scale(1.5); }
+      main .skills .skills_icons li a {
+        outline: none;
+        color: #8F9EA5; }
+        main .skills .skills_icons li a i:hover {
+          -webkit-transform: scale(1.5);
+          -ms-transform: scale(1.5);
+          transform: scale(1.5); }
   main .skills .html5 i {
     -webkit-transition: all 480ms;
     -o-transition: all 480ms;
