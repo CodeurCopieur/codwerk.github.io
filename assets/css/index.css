@@ -408,6 +408,8 @@ main {
           border: 1px solid #D9B166;
           position: absolute;
           border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+          -webkit-box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06);
+          box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06);
           background-color: #D9B166;
           z-index: -1;
           -webkit-transition: all 480ms;
@@ -740,6 +742,8 @@ main .skills {
       font-size: 14px;
       padding: 3em;
       outline: none;
+      -webkit-box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06);
+      box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06);
       -webkit-animation: circledistorted 4s linear infinite;
       animation: circledistorted 4s linear infinite;
       -webkit-transition: all 480ms;
@@ -895,6 +899,8 @@ main .skills {
           background-color: #D9B166;
           position: absolute;
           border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+          -webkit-box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06);
+          box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06);
           -webkit-animation: movedownbounce 10.9s linear infinite;
           animation: movedownbounce 10.9s linear infinite;
           -webkit-transition: all 480ms;
