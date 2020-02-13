@@ -46,9 +46,10 @@ main .landing .landing__wrapper {
       main .landing .landing__wrapper .landing__paper-grid .landing__paper-grid__intro .landing__paper-grid__about .landing__paper-grid__name .landingL__title {
         font-size: 30px;
         font-weight: 700;
-        color: #17191A;
-        margin-bottom: 20px;
-        line-height: .75; }
+        color: #D9B166;
+        margin: 30px 0;
+        line-height: .75;
+        text-align: center; }
         main .landing .landing__wrapper .landing__paper-grid .landing__paper-grid__intro .landing__paper-grid__about .landing__paper-grid__name .landingL__title span {
           font-size: 20px; }
       main .landing .landing__wrapper .landing__paper-grid .landing__paper-grid__intro .landing__paper-grid__about .landing__paper-grid__name ol {
@@ -110,6 +111,7 @@ main .landing .landing__wrapper {
       width: 80%;
       border: none; }
       main .landing .landing__wrapper .landing__paper-grid .landing__paper-grid__intro .landing__paper-grid__about .landing__paper-grid__name ol li {
-        color: #17191A; }
+        color: #17191A;
+        font-size: .855em; }
     main .landing .landing__wrapper .landing__paper-grid .landing__paper-grid__nav {
       position: relative; } }
