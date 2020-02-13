@@ -89,9 +89,68 @@ main .landing .landing__wrapper {
           padding: 0 .25rem; }
           main .landing .landing__wrapper .landing__paper-grid .landing__paper-grid__nav .landing__paper-grid__navList .landing__paper-grid__navItem .landing__paper-grid__navLink {
             color: #fff;
-            text-transform: uppercase; }
+            text-transform: uppercase;
+            outline: none; }
             main .landing .landing__wrapper .landing__paper-grid .landing__paper-grid__nav .landing__paper-grid__navList .landing__paper-grid__navItem .landing__paper-grid__navLink i {
-              padding-right: 5px; }
+              padding-right: 2px; }
+
+main .landing .landing__about-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 4em; }
+  main .landing .landing__about-social .landing__about-social__word {
+    padding: 0.5em 0;
+    font-size: 1.15em;
+    line-height: 1em;
+    font-weight: bold;
+    margin-right: 1em;
+    color: #8F9EA5;
+    -webkit-transition: all 480ms;
+    -o-transition: all 480ms;
+    transition: all 480ms; }
+  main .landing .landing__about-social .landing__about-social__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    main .landing .landing__about-social .landing__about-social__list .landing__about-social__item {
+      padding: 10px;
+      font-size: 1.75rem;
+      -webkit-transition: all 480ms;
+      -o-transition: all 480ms;
+      transition: all 480ms;
+      cursor: pointer; }
+    main .landing .landing__about-social .landing__about-social__list .landing__about-social__link {
+      outline: none;
+      color: #8F9EA5; }
+      main .landing .landing__about-social .landing__about-social__list .landing__about-social__link i:hover {
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5); }
+    main .landing .landing__about-social .landing__about-social__list #twitter a i {
+      -webkit-transition: all 480ms;
+      -o-transition: all 480ms;
+      transition: all 480ms; }
+      main .landing .landing__about-social .landing__about-social__list #twitter a i:hover {
+        color: #1DA1F2; }
+    main .landing .landing__about-social .landing__about-social__list #linkedin a i {
+      -webkit-transition: all 480ms;
+      -o-transition: all 480ms;
+      transition: all 480ms; }
+      main .landing .landing__about-social .landing__about-social__list #linkedin a i:hover {
+        color: #0077b5; }
+    main .landing .landing__about-social .landing__about-social__list #instagram a i {
+      -webkit-transition: all 480ms;
+      -o-transition: all 480ms;
+      transition: all 480ms; }
+      main .landing .landing__about-social .landing__about-social__list #instagram a i:hover {
+        color: #E64C5A; }
 
 @media only screen and (max-width: 1025px) {
   main .landing .landing__wrapper .landing__paper-grid {
@@ -112,4 +171,15 @@ main .landing .landing__wrapper {
         color: #17191A;
         font-size: .855em; }
     main .landing .landing__wrapper .landing__paper-grid .landing__paper-grid__nav {
-      position: relative; } }
+      position: relative; }
+  main .landing .landing__about-social {
+    margin: 2em; }
+    main .landing .landing__about-social .landing__about-social__word {
+      color: #17191A;
+      display: none; } }
+
+main .landing__about .about {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  max-width: 70%;
+  margin: 0 auto; }
