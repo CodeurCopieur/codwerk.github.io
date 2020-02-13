@@ -899,8 +899,6 @@ main .skills {
           background-color: #D9B166;
           position: absolute;
           border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-          -webkit-box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06);
-          box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06);
           -webkit-animation: movedownbounce 10.9s linear infinite;
           animation: movedownbounce 10.9s linear infinite;
           -webkit-transition: all 480ms;
