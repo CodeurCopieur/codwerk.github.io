@@ -29,7 +29,7 @@ main .landing .landing__wrapper {
       background-position: center;
       background-repeat: no-repeat;
       border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
-      z-index: 2;
+      z-index: 1;
       position: relative;
       display: block; }
       main .landing .landing__wrapper .landing__paper-grid .landing__paper-grid__img img {
@@ -161,8 +161,11 @@ main .landing .landing__about-social {
     -ms-flex-direction: column;
     flex-direction: column; }
     main .landing .landing__wrapper .landing__paper-grid .landing__paper-grid__img {
-      max-width: 276px;
-      width: 276px;
+      max-width: 200px;
+      width: 200px;
+      min-height: 200px;
+      height: 200px;
+      background-size: contain;
       z-index: 1; }
     main .landing .landing__wrapper .landing__paper-grid .landing__paper-grid__intro {
       width: 80%;
@@ -285,7 +288,8 @@ main .landing__about .about {
         box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06); }
       main .landing__about .about .about__wording .about__wording-title {
         font-size: 16px;
-        font-weight: bold; }
+        font-weight: bold;
+        margin-bottom: 1em; }
       main .landing__about .about .about__wording .about__wording-txt p {
         font-size: .855em; }
         main .landing__about .about .about__wording .about__wording-txt p .about__wording-linkCv {
