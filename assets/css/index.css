@@ -1029,6 +1029,9 @@ main .skills {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column; }
+      .container__projets .projets__wrapper:nth-child(even):after {
+        -webkit-box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06);
+        box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06); }
     .container__projets .projets__wrapper .projets__img {
       width: 95%; }
     .container__projets .projets__wrapper .projets__infos {
@@ -1044,7 +1047,9 @@ main .skills {
           width: 50px;
           height: 10px;
           top: 14px;
-          left: 10px; }
+          left: 10px;
+          -webkit-box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06);
+          box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06); }
       .container__projets .projets__wrapper .projets__infos .projets__icons {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
