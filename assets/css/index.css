@@ -228,7 +228,8 @@ header {
       /* Hamburger Menu */ }
       header .nav .nav__icon a {
         color: #D9B166;
-        font-size: 1.05em; }
+        font-size: 1.05em;
+        outline: none; }
       header .nav .nav__icon .hamburger {
         width: 2.25rem;
         position: relative;
