@@ -181,12 +181,16 @@ main .landing .landing__about-social {
 main .landing__about .about {
   padding-top: 2em;
   padding-bottom: 2em;
-  max-width: 70%;
+  max-width: 80%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly; }
   main .landing__about .about .about__portraitChinois {
+    padding: 1em;
     width: 20%; }
     main .landing__about .about .about__portraitChinois .about__portraitChinois-title {
       font-size: 30px;
@@ -194,13 +198,29 @@ main .landing__about .about {
       margin-bottom: 0.33333333em;
       font-weight: lighter;
       text-transform: uppercase;
-      text-align: left; }
+      text-align: left;
+      color: #8F9EA5;
+      -webkit-transition: all 480ms;
+      -o-transition: all 480ms;
+      transition: all 480ms; }
   main .landing__about .about .about__wording {
+    position: relative;
     width: 70%;
-    border: 1px solid #D9B166;
     color: #8F9EA5;
-    padding: 2em;
-    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%; }
+    padding: 1em; }
+    main .landing__about .about .about__wording:before {
+      content: '';
+      border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+      border: 1px solid #D9B166;
+      height: 420px;
+      width: 900px;
+      position: absolute;
+      top: -77px;
+      left: -43px;
+      z-index: -1;
+      -webkit-transition: all 480ms;
+      -o-transition: all 480ms;
+      transition: all 480ms; }
     main .landing__about .about .about__wording .about__wording-title {
       font-size: 30px;
       line-height: 1.25em;
@@ -216,6 +236,20 @@ main .landing__about .about {
       margin-bottom: .75em; }
       main .landing__about .about .about__wording .about__wording-txt p strong {
         font-weight: bold; }
+      main .landing__about .about .about__wording .about__wording-txt p .about__wording-linkCv {
+        cursor: pointer;
+        color: #17191A;
+        background: -webkit-gradient(linear, left bottom, left top, from(#d9b166), color-stop(10%, rgba(217, 177, 102, 0.5)), color-stop(10.01%, transparent)) no-repeat;
+        background: -webkit-linear-gradient(bottom, #d9b166 0%, rgba(217, 177, 102, 0.5) 10%, transparent 10.01%) no-repeat;
+        background: -o-linear-gradient(bottom, #d9b166 0%, rgba(217, 177, 102, 0.5) 10%, transparent 10.01%) no-repeat;
+        background: linear-gradient(to top, #d9b166 0%, rgba(217, 177, 102, 0.5) 10%, transparent 10.01%) no-repeat;
+        background-size: 100% 100%;
+        -webkit-transition: background-size .3s ease;
+        -o-transition: background-size .3s ease;
+        transition: background-size .3s ease; }
+        main .landing__about .about .about__wording .about__wording-txt p .about__wording-linkCv:hover {
+          -webkit-animation: line 1s both;
+          animation: line 1s both; }
 
 @media only screen and (max-width: 1025px) {
   main .landing__about .about {
@@ -225,15 +259,37 @@ main .landing__about .about {
     flex-direction: column-reverse;
     max-width: 80%; }
     main .landing__about .about .about__portraitChinois {
-      width: 80%; }
-    main .landing__about .about .about__wording {
       width: 80%;
+      margin-top: 3em; }
+      main .landing__about .about .about__portraitChinois .about__portraitChinois-title {
+        font-size: 16px;
+        font-weight: bold;
+        color: #17191A;
+        text-align: center; }
+        main .landing__about .about .about__portraitChinois .about__portraitChinois-title br {
+          display: none; }
+    main .landing__about .about .about__wording {
+      width: unset;
       color: #17191A;
       -webkit-transition: all 480ms;
       -o-transition: all 480ms;
       transition: all 480ms; }
+      main .landing__about .about .about__wording:before {
+        height: 104%;
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: -13px;
+        background-color: #D9B166;
+        -webkit-box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06);
+        box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06); }
       main .landing__about .about .about__wording .about__wording-title {
         font-size: 16px;
         font-weight: bold; }
       main .landing__about .about .about__wording .about__wording-txt p {
-        font-size: .855em; } }
+        font-size: .855em; }
+        main .landing__about .about .about__wording .about__wording-txt p .about__wording-linkCv {
+          background: -webkit-gradient(linear, left bottom, left top, from(#17191A), color-stop(10%, rgba(217, 177, 102, 0.5)), color-stop(10.01%, transparent)) no-repeat;
+          background: -webkit-linear-gradient(bottom, #17191A 0%, rgba(217, 177, 102, 0.5) 10%, transparent 10.01%) no-repeat;
+          background: -o-linear-gradient(bottom, #17191A 0%, rgba(217, 177, 102, 0.5) 10%, transparent 10.01%) no-repeat;
+          background: linear-gradient(to top, #17191A 0%, rgba(217, 177, 102, 0.5) 10%, transparent 10.01%) no-repeat; } }
