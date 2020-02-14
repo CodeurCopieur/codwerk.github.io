@@ -241,6 +241,7 @@ main .landing__about .about {
         font-weight: bold; }
       main .landing__about .about .about__wording .about__wording-txt p .about__wording-linkCv {
         cursor: pointer;
+        outline: none;
         color: #17191A;
         background: -webkit-gradient(linear, left bottom, left top, from(#d9b166), color-stop(10%, rgba(217, 177, 102, 0.5)), color-stop(10.01%, transparent)) no-repeat;
         background: -webkit-linear-gradient(bottom, #d9b166 0%, rgba(217, 177, 102, 0.5) 10%, transparent 10.01%) no-repeat;
