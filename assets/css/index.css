@@ -585,15 +585,21 @@ main {
     main .landing:before {
       width: 300px;
       height: 300px; }
-    main .landing .landing__container .landingL__title {
-      margin-top: 1em; }
+    main .landing .landing__container {
+      margin-bottom: 2.75em; }
+      main .landing .landing__container .landingL__title {
+        margin-top: 1em; }
+      main .landing .landing__container .landingL__link {
+        margin-bottom: 0em; }
     main .landing .landing__wrapper {
       -webkit-box-orient: vertical;
       -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
       flex-direction: column-reverse; }
       main .landing .landing__wrapper .landingL:before {
-        bottom: 10%; }
+        bottom: 10%;
+        -webkit-box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06);
+        box-shadow: 0px 0px 30px 10px rgba(23, 30, 36, 0.06); }
       main .landing .landing__wrapper .landingL .landingL__wording {
         font-size: .855em;
         line-height: 1.1;
@@ -1013,6 +1019,8 @@ main .skills {
     -ms-flex-direction: column;
     flex-direction: column;
     margin: 8em auto; }
+    .container__projets .projets__wrapper:nth-child(odd):after {
+      top: -28%; }
     .container__projets .projets__wrapper:nth-child(even) {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
