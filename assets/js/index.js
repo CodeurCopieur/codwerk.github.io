@@ -13,3 +13,13 @@ addEventListener('scroll', ()=> {
   const pourcentage = pageYOffset / heightPage * 100;
   bar.style.width = `${pourcentage}%`;
 })
+
+
+let loader = document.querySelector('.loader');
+
+
+window.addEventListener('load', ()=> {
+  //loader.style.display = 'none';
+
+  loader.parentElement.removeChild(loader)
+})
