@@ -19,7 +19,5 @@ let loader = document.querySelector('.loader');
 
 
 window.addEventListener('load', ()=> {
-  //loader.style.display = 'none';
-
-  loader.parentElement.removeChild(loader)
+  loader.style.display = 'none';
 })
