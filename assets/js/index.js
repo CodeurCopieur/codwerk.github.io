@@ -18,6 +18,9 @@ addEventListener('scroll', ()=> {
 let loader = document.querySelector('.loader');
 
 
-window.addEventListener('load', ()=> {
+window.addEventListener('load', (e)=> {
   loader.style.display='none';
+  e.srcElement.body.classList.add('is-change')
+  console.log(e);
+  console.log(e.srcElement.body.classList.add('is-change'))
 })
