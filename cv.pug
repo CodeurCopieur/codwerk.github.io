@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+html(lang="fr")
+  include includes/head.pug
+    
+    title CV - Louis Widdy - Intégrateur Web - Portfolio
+    
+  body
+    .box__bar
+      .bar
+    .loader
+      .loader-spinner
+    header
+      nav.nav
+        .nav__icon
+          a(href="mailto:louis_widdy@live.fr") 
+            i.fas.fa-envelope  Contactez-moi
+          .hamburger
+            .line
+            .line
+            .line
+        ul.nav__list
+          li.nav__item
+            a.nav__link(href="https://codepen.io/codwerk", target="_blank")
+              img(src="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico", alt="", height="25px", width="25px")
+          li.nav__item
+            a.nav__link(href="https://github.com/codwerk", target="_blank")
+              img(src="https://github.com/fluidicon.png", alt="", height="25px", width="25px")
+          li.nav__item
+            a.nav__link(href="https://codesandbox.io/u/codwerk", target="_blank")
+              img(src="https://codesandbox.io/favicon.ico", alt="", height="25px", width="25px")
+          .active
+    main
+      section(style="overflow: visible!important").landing
+        .landing__container
+          h1.landingL__title Curriculum Vitae
+          h3.landing__title3 A la recherche d'un poste en tant que Intégrateur Web
+        .landing__wrapper
+          .landing__wrapper-CV__infos
+            a(href="https://codwerk.github.io/", target="_blank")
+              .landing__wrapper__CV-picture
+
+            ul.landing__wrapper__CV-lists
+              li.landing__wrapper__CV-item#twitter
+                a(href="https://twitter.com/codwerk", target="_blank").landing__wrapper__CV-link 
+                  i.fab.fa-twitter
+              li.landing__wrapper__CV-item#linkedin
+                a(href="https://www.linkedin.com/in/widdy-louis-1a226ba9/", target="_blank").landing__wrapper__CV-link
+                  i.fab.fa-linkedin-in
+              li.landing__wrapper__CV-item#instagram
+                a(href="https://www.instagram.com/codwerk/", target="_blank").landing__wrapper__CV-link
+                  i.fab.fa-instagram
+
+      section.landing__intro-box
+          h3.landing__intro-box-title Intro
+          .landing__intro-box-txt
+            p 
+              strong Conception web responsive : intégration web/front-end.
+            p Grand passionné d’animation CSS, plugins javaScript, je me tiens informé sur les tendances et vieille à leur compatibilité entre les différent navigateur.
+
+
+
+      section.landing__about
+        .about
+          .about__experience
+            h3.landing__intro-box-title expérience professionnelle
+
+            .about__boxExperience
+              h3 
+                  a(href="https://www.lepoint.fr/", target="_blank")
+                    img(src="https://media-exp1.licdn.com/dms/image/C4D0BAQEH5Q2xCzkVkg/company-logo_100_100/0?e=1590624000&v=beta&t=2KG0vfPEG7BeQkVHiQsGLfuEw5jQoWs8lTmMiY10hEc", alt="", width="48px")
+
+                  a(href="https://www.lepoint.fr/", target="_blank").link Le Point
+                  |  (Paris)
+              .about__boxExperience-container
+
+                h3.about__boxExperience-title Intégrateur Web
+                p
+                  span janv. 2020 – févr. 2020 - CDD
+
+              .about__boxExperience-container
+                h3.about__boxExperience-title Intégrateur Web / Webmaster
+                p 
+                  span nov. 2017 – janv. 2020 - Contrat en alternance
+                ul 
+                  span Missions
+                  li Mise à jour du site internet
+                  li Intégration HTML / CSS / JS / SASS / Gulp Workflow
+                  li Programmation de campagnes via nos outils
+                  li Support aux journalistes
+                  li Gestion de projet web
+                  li Intégration Landing page, Rubrique, Newsletter
+
+          .about__formation
+            h3.landing__intro-box-title formation
+            .about__boxFormation
+              h3 
+                    a(href="https://www.ecole-multimedia.com/", target="_blank")
+                      img(src="https://media-exp1.licdn.com/dms/image/C560BAQFfyU9prUQUXQ/company-logo_100_100/0?e=1591228800&v=beta&t=Lo63ZZ-o9x6haaVxumB5uwi_hUspgn9Pm-d49QcPsyc", alt="", width="48px")
+
+                    a(href="https://www.doranco.fr/", target="_blank").link Doranco
+                    |  (Paris)
+              .about__boxFormation-container
+                h3.about__boxFormation-title Formation alternance
+                span 2018 – 2020
+                ul
+                  span Technologie web 
+                  li Photoshop - Illustrator - JavaScript - jQuery - Ajax - WordPress - Ergonomie des interfaces(UX) - Design graphique des interfaces(UI) - Node JS
+
+              h3 
+                    a(href="https://www.ecole-multimedia.com/", target="_blank")
+                      img(src="https://media-exp1.licdn.com/dms/image/C4D0BAQGWOsb-x6x-ig/company-logo_100_100/0?e=1591228800&v=beta&t=Sqc63mH347wfpUGiMI1AScMqhNiNop-PxgIVDDkurOI", alt="", width="48px")
+
+                    a(href="https://www.ecole-multimedia.com/", target="_blank").link L'École Multimédia
+                    |  (Paris)
+              .about__boxFormation-container
+                h3.about__boxFormation-title Formation alternance "Développeur multimédia"
+                span 2017 – 2018
+                ul
+                  span Technologie web 
+                  li HTML5 - CSS3 - Opquast - JavaScript - Jquery (Animation, Ajax) - GitHub - Vue2 JS - Wordpress - PHP - Framework Laravel
+              
+              h3 
+                    a(href="https://iutb.univ-paris13.fr/", target="_blank")
+                      img(src="https://media-exp1.licdn.com/dms/image/C560BAQEa6CDWRYykqQ/company-logo_100_100/0?e=1591228800&v=beta&t=MkZ5uG9UKGEgNsQJYKSK2vBccJ4rnmZjAdl4kbJCKgE", alt="", width="48px")
+
+                    a(href="https://iutb.univ-paris13.fr/", target="_blank").link IUT de Bobigny
+                    |  (Paris)
+              .about__boxFormation-container
+                h3.about__boxFormation-title Licence Professionnelle "CIWM"​
+                span 2016 – 2017
+                ul
+                  span Technologie web 
+                  li Wordpress - Drupal - Joomla - Typo 3 -  PHP - HTML5 - CSS3 - SQL - XHTML - Javascript - XML - JAVA - SWIFT - Android Studio - Xcode - Photoshop - Illustrator - In Design
+                
+              h3 
+                    a(href="https://iutb.univ-paris13.fr/", target="_blank")
+                      img(src="https://media-exp1.licdn.com/dms/image/C4E0BAQEnR_x-k6pJ4Q/company-logo_100_100/0?e=1591228800&v=beta&t=l-nMt77U5mvQHfD3KmKo0r6x1DHE1pbX73YuEun4r5o", alt="", width="48px")
+
+                    a(href="https://iutb.univ-paris13.fr/", target="_blank").link Lycée Voillaume
+                    |  (Aulany-Sous-Bois)
+              .about__boxFormation-container
+                h3.about__boxFormation-title BTS Services Informatiques aux Organisations option SLAM
+                span 2014 – 2016
+                ul
+                  span Technologie web 
+                  li PHP(MVC - PDO) - C# - SQL - HTML5 - CSS - XML
+
+
+
+
+    include includes/footer.pug
+
+    include includes/foot.pug
