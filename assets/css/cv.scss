@@ -92,54 +92,15 @@ main {
       }
     }
   }
-
-
-}
-
-
-
-//landing__details
-/*
-main {
-  .landing__details {
-
-    .details__container {
-        //display: flex;
-        max-width: 80%;
-        margin: 0 auto;
-
-        .landing__intro-box-title {
-          color: #d9b166;
-          font-size: 25px;
-          line-height: 1.25em;
-          margin-bottom: 0.5em;
-          font-weight: lighter;
-          text-transform: uppercase;
-          text-align: left;
-          z-index: 0;
-          position: relative;
-          transition: all 480ms;
-        }
-
-        .details__skills {
-
-          .skills__html-css {
-
-            .skills__title {
-              font-size: 1em;
-              font-weight: bold;
-              line-height: 1em;
-              margin-bottom: 0.33333333em;
-              position: relative;
-              color: #8F9EA5;
-            }
-          }
-
-        }
+  .landing__about {
+    .about {
+      flex-direction: column!important;
     }
   }
+
 }
-*/
+
+
 
 @media only screen and (max-width: 1025px) {
 
