@@ -22,9 +22,3 @@ window.addEventListener('load', (e)=> {
   loader.style.display='none';
   e.srcElement.body.classList.add('is-change');
 });
-
-AOS.init({
-  offset: 400,
-  duration: 1000,
-  easing: 'ease'
-});
